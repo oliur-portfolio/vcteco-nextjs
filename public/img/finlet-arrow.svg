@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 10 15" width="10" height="15">
+                                                    <title>FinletDesktop</title>
+                                                    <style>
+                                                        tspan {
+                                                            white-space: pre;
+                                                        }
+                                                        .shp0 {
+                                                            fill: #ffffff;
+                                                        }
+                                                    </style>
+                                                    <g id="Benefits">
+                                                        <path id="Shape 1 copy 6" class="shp0" d="M0.01 14.99L1.8 7.5L0.01 0.01L9.99 7.5L0.01 14.99Z" />
+                                                    </g>
+                                                </svg>
