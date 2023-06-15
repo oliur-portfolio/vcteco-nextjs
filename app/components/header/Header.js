@@ -76,10 +76,8 @@ const Header = () => {
                     <Link
                         onClick={() => {
                             if (isMobile) {
-                                setTimeout(() => {
-                                    setIsDropdownOpen(false);
-                                    setIsToggledMenu(false);
-                                }, 400);
+                                setIsDropdownOpen(false);
+                                setIsToggledMenu(false);
                             }
                         }}
                         href="/"

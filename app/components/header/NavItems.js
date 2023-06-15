@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -18,17 +18,13 @@ const NavItems = ({
     };
 
     const handleMobileDropdown = () => {
-        setTimeout(() => {
-            toggleDropdown();
-            setIsToggledMenu(false);
-        }, 400);
+        toggleDropdown();
+        setIsToggledMenu(false);
     };
 
     const handleMobileNavClose = () => {
-        setTimeout(() => {
-            setIsDropdownOpen(false);
-            setIsToggledMenu(false);
-        }, 400);
+        setIsDropdownOpen(false);
+        setIsToggledMenu(false);
     };
 
     // Set Menu Items

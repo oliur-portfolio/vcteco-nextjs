@@ -9,6 +9,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const DirectorsTeam = () => {
+    
     const directorsTeamThumb = [
         {
             id: 1,
